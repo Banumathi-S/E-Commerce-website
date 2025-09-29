@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> responsive ecommerce website design </title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+<!-- header section starts  -->
+
+<header>
+
+    <div id="menu-bar" class="fas fa-bars"></div>
+
+    <a href="#" class="logo">stepX</a>
+
+    <nav class="navbar">
+        <a href="#home">home</a>
+        <a href="#products">products</a>
+        <a href="#featured">featured</a>
+        <a href="#review">review</a>
+    </nav>
+
+    <div class="icons">
+        <a href="#" class="fas fa-heart"></a>
+        <a href="#" class="fas fa-shopping-cart"></a>
+        <a href="#" class="fas fa-user"></a>
+    </div>
+
+</header>
+
+<!-- header section ends -->
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+    <div class="slide-container active">
+        <div class="slide">
+            <div class="content">
+                <span>stepX red shoes</span>
+                <h3>stepX metcon shoes</h3>
+                <p> Elevate your fitness game with our stepX Metcon shoes!! stepX Metcon Shoes - Built for high - intensity workouts  </p>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+            <div class="image">
+                <img src="shoe4.png" class="shoe" alt="">
+                <img src="hi" class="text" alt="">
+            </div>
+        </div>
+    </div>
+
+    <div class="slide-container">
+        <div class="slide">
+            <div class="content">
+                <span>stepX White shoes</span>
+                <h3>stepX metcon shoes</h3>
+                <p>"Get the comfort and performance of New StepX  Shoes for all your activities".
+.</p>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+            <div class="image">
+                <img src="OIP.jpeg" class="shoe" alt="">
+                <img src="hii" class="text" alt="">
+            </div>
+        </div>
+    </div>
+
+    <div class="slide-container">
+        <div class="slide">
+            <div class="content">
+                <span>stepX Brown shoes</span>
+                <h3>stepX metcon shoes</h3>
+                <p>"Get the comfort and performance of Shoes for all your activities"
+.</p>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+            <div class="image">
+                <img src="OIP (2).jpeg" class="shoe" alt="">
+                <img src="i" class="text" alt="">
+            </div>
+        </div>
+    </div>
+
+    <div id="prev" class="fas fa-chevron-left" onclick="prev()"></div>
+    <div id="next" class="fas fa-chevron-right" onclick="next()"></div>
+
+</section>
+
+<!-- home section ends -->
+
+<!-- service section starts  -->
+
+<section class="service">
+
+    <div class="box-container">
+
+        <div class="box">
+            <i class="fas fa-shipping-fast"></i>
+            <h3>fast delivery</h3>
+            <p>FREE delivery and upto any location </p>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-undo"></i>
+            <h3>10 days replacements</h3>
+            <p>Any damage on the product ,that is replaceable within 10 days</p>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-headset"></i>
+            <h3>24 x 7 support</h3>
+            <p>Any Queries,Contact- 890000321</p>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- service section ends -->
+
+<!-- products section starts  -->
+
+<section class="products" id="products">
+
+    <h1 class="heading"> latest <span>products</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <div class="icons">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-share"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <img src="OIP (1).jpeg" alt="">
+            <div class="content">
+                <h3>stepX shoes</h3>
+                <div class="price">$110.99 <span>$160.99</span></div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="icons">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-share"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <img src="green.jpeg" alt="">
+            <div class="content">
+                <h3>stepX shoes</h3>
+                <div class="price">$120.99 <span>$150.99</span></div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="icons">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-share"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <img src="shoe4.png" alt="">
+            <div class="content">
+                <h3>stepX shoes</h3>
+                <div class="price">$150.90 <span>$200.90</span></div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="icons">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-share"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <img src="sheo3.jpeg" alt="">
+            <div class="content">
+                <h3>stepX shoes</h3>
+                <div class="price">$90.97 <span>$130.97</span></div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="icons">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-share"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <img src="shoe2.jpeg" alt="">
+            <div class="content">
+                <h3> stepX shoes</h3>
+                <div class="price">$100.92 <span>$120.92</span></div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="icons">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-share"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <img src="shoe.jpeg" alt="">
+            <div class="content">
+                <h3>stepX shoes</h3>
+                <div class="price">$95.90 <span>$105.90</span></div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- products section ends -->
+
+<!-- featured section starts  -->
+
+<section class="featured" id="featured">
+
+    <h1 class="heading"> <span>featured</span> products </h1>
+
+    <div class="row">
+        <div class="image-container">
+            <div class="small-image">
+                <img src="OIP 1.3.jpeg" class="featured-image-1" alt="">
+                <img src="OIP 1.2.jpeg" class="featured-image-1" alt="">
+                <img src="OIP 1.4.jpeg" class="featured-image-1" alt="">
+                <img src="OIP 1.1.jpeg" class="featured-image-1" alt="">
+            </div>
+            <div class="big-image">
+                <img src="OIP (3).jpeg" class="big-image-1" alt="">
+            </div>
+        </div>
+        <div class="content">
+            <h3>new stepX airmax shoes</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+            <p>"Get the comfort and performance of New StepX Airmax Shoes for all your activities."
+.</p>
+            <div class="price">$80.99 <span>$120.99</span></div>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="image-container">
+            <div class="small-image">
+                <img src="OIP.jpeg" class="featured-image-2" alt="">
+                <img src="OIP 2.1.jpeg" class="featured-image-2" alt="">
+                <img src="OIP 2.3.jpeg" class="featured-image-2" alt="">
+                <img src="OIP 2.4.jpeg" class="featured-image-2" alt="">
+            </div>
+            <div class="big-image">
+                <img src="OIP (4).jpeg" class="big-image-2" alt="">
+            </div>
+        </div>
+        <div class="content">
+            <h3>new stepX airmax shoes</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+            <p>Experience comfort and style with the New StepX Airmax Shoes. Designed for everyday wear with a blend of cushioning and support for your active lifestyle."
+.</p>
+            <div class="price">$75.99 <span>$145.99</span></div>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="image-container">
+            <div class="small-image">
+                <img src="OIP 3.1.jpeg" class="featured-image-3" alt="">
+                <img src="OIP 3.2.jpeg" class="featured-image-3" alt="">
+                <img src="OIP 3.3.jpeg" class="featured-image-3" alt="">
+                <img src="brown.jpeg" class="featured-image-3" alt="">
+            </div>
+            <div class="big-image">
+                <img src="OIP (5).jpeg" class="big-image-3" alt="">
+            </div>
+        </div>
+        <div class="content">
+            <h3>new stepX airmax shoes</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+            <p>New StepX Airmax Shoes bring together style, comfort, and support for your everyday adventures."
+
+</p>
+            <div class="price">$85.99 <span>$99.99</span></div>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+    </div>
+
+</section>
+
+<!-- featured section ends -->
+
+<!-- review section starts  -->
+
+<section class="review" id="review">
+
+    <h1 class="heading"> customer's <span>review</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="pic1.png" alt="">
+            <h3>Alice </h3>
+            <p>Comfortable leather shoe for daily use and Comfortable</p>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+        </div>
+
+
+        <div class="box">
+            <img src="pic2.png" alt="">
+            <h3>agnal </h3>
+            <p>Light weight neutral daily trainer with modern aesthetic and an affordable price tag</p>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="pic3.png" alt="">
+            <h3>John</h3>
+            <p>This is top- notch comfort ,apt, cushioning, breathable upper , good stability and a durable construction</p>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- review section ends -->
+
+<!-- newsletter section starts  -->
+
+<section class="newsletter">
+
+    <div class="content">
+        <h3>monthly newsletter</h3>
+        <p> Get the weekly newsletter keeping thousands of marketers in the loop.</p>
+        <form action="">
+            <input type="email" placeholder="Enter your email" class="box">
+            <input type="submit" value="send" class="btn">
+        </form>
+    </div>
+
+</section>
+
+<!-- newsletter section ends -->
+
+<!-- footer section  -->
+
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>our stores</h3>
+            <a href="#">india</a>
+            <a href="#">USA</a>
+            <a href="#">japan</a>
+            <a href="#">paris</a>
+        </div>
+
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="#">home</a>
+            <a href="#">products</a>
+            <a href="#">featured</a>
+            <a href="#">review</a>
+        </div>
+
+        <div class="box">
+            <h3>extra links</h3>
+            <a href="#">my account</a>
+            <a href="#">my favorite</a>
+            <a href="#">my orders</a>
+            <a href="#">newsletter</a>
+        </div>
+
+        <div class="box">
+            <h3>follow us</h3>
+            <a href="#">facebook</a>
+            <a href="#">twitter</a>
+            <a href="#">instagram</a>
+            <a href="#">linkedin</a>
+        </div>
+
+        <div class="credit">created by <span> Banumathi </span> | all rights reserved</div>
+
+    </div>
+
+</section>
+
+
+<!-- custom js file link  -->
+<script src="script.js"></script>
+    
+</body>
+</html>
